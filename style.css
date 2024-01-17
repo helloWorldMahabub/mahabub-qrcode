@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 15px 'Outfit';
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(212, 45%, 89%);
+}
+
+.wrapper {
+    width: 340px;
+    height: auto;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover cover;
+    border-radius: 1rem;
+}
